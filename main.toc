@@ -1,0 +1,8 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Primer caso}{3}
+\contentsline {subsection}{\numberline {1.1}Analisis exploratorio}{3}
+\contentsline {subsection}{\numberline {1.2}Entrenamiento}{6}
+\contentsline {subsection}{\numberline {1.3}Random Forest}{7}
+\contentsline {section}{\numberline {2}Segundo caso}{8}
+\contentsline {subsection}{\numberline {2.1}Estudio del trafico}{8}
+\contentsline {section}{\numberline {3}Solucion en machine learning por Random Forest}{12}
