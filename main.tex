@@ -330,7 +330,7 @@ los mejores hiper-parámetros pertenecientes propios a cada algoritmo. El set de
 
 Utilizamos el algoritmo de \textbf{random forest} para realizar la predicción. Para ello con la información obtenida del archivo “10perfect” entrenamos el algoritmo y luego predecimos los ataques para el archivo “corrected”. Para verificar la eficacia del algoritmo comparamos los valores obtenidos obtenidos por la predicción con los que ya se encontraban en el archivo. Al realizar la comparación obtuvimos el resultado siguiente:
 
-\textbf{Accuracy: 0.9946986695597958}
+\textbf{Accuracy: 0.99469}
 
 
 \medskip
@@ -554,7 +554,7 @@ A continuación una serie de ejemplos de árboles de decisión generados por nue
 \label{fig:fig}
 \end{figure}
 
-Finalmente se logró clasificar por medio de este algoritmo a los datos con una precisión del \textbf{0.9925373134328358}
+Finalmente se logró clasificar por medio de este algoritmo a los datos con una precisión del \textbf{0.99253}
 
 \medskip
 
@@ -571,9 +571,14 @@ Archivos:
 
 \section{Conclusion}
 
-Los algoritmos de machine learning pueden ser herramientas muy utiles para utilizar en el area de seguridad informatica. En este trabajo se demostro que estos algoritmos pueden servir para detectar ataques que afectan a la disponibilidad del servicio (DOS), como tambien para los que afectan la integridad de los datos (Ransomware). Queda para futuros trabajos investigar en que otros pilares de la seguridad informatica se pueden usar estas herramientas.
-\newpage
+Los algoritmos de machine learning pueden ser herramientas muy utiles para utilizar en el area de seguridad inform\'atica. En este trabajo se demostr\'o que estos algoritmos pueden servir para detectar ataques que afectan a la disponibilidad del servicio (DOS), como tambi\'en para los que afectan la integridad de los datos (Ransomware). 
 
+Tambi\'en hay que tener en cuenta que es muy importante para que este tipo de herramientas resulten \'utiles para su objetivo, es necesario hacer un an\'alisis previo de los datos (preprocesamiento) para asegurarse de que los mismos puedan aplicarse correctamente.
+
+Adem\'as, hay que considerar que cada set de datos      , sobre todo de paquetes provenientes de internet, es diferente, con lo cual las m\'etricas pueden funcionar bien para algunos casos y no para otros. A esto se suma que los ataques suelen evolucionar con el correr de los tiempos, con lo cual, los par\'ametros para detectarlos pueden quedar obsoletos en poco tiempo.
+
+Queda para futuros trabajos investigar en que otros pilares de la seguridad inform\'atica se pueden usar estas herramientas, aplicando otros m\'etodos y par\'ametros.
+\newpage
 
 
 

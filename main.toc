@@ -1,4 +1,4 @@
-\babel@toc {spanish}{}
+\select@language {spanish}
 \contentsline {section}{\numberline {1}Introduccion}{4}
 \contentsline {subsection}{\numberline {1.1}Random Forest}{4}
 \contentsline {section}{\numberline {2}Primer caso}{5}
@@ -7,4 +7,5 @@
 \contentsline {section}{\numberline {3}Segundo caso}{9}
 \contentsline {subsection}{\numberline {3.1}Estudio del trafico}{9}
 \contentsline {subsection}{\numberline {3.2}Entrenamiento}{13}
-\contentsline {section}{\numberline {4}Conclusion}{16}
+\contentsline {section}{\numberline {4}Repositorio}{16}
+\contentsline {section}{\numberline {5}Conclusion}{16}
