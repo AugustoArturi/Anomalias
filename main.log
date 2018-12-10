@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.20)  9 DEC 2018 19:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.29)  9 DEC 2018 21:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 8 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -24,33 +24,25 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count87
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -69,28 +61,34 @@ Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
-\uc@secondtry=\count88
+\uc@secondtry=\count87
 \uc@combtoks=\toks17
 \uc@combtoksb=\toks18
 \uc@temptokena=\toks19
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/02/24 3.9q The Babel package
+Package: babel 2018/02/14 3.18 The Babel package
 
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
 (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2016/01/15 v5.0o Spanish support from the babel system
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/02/24 3.9q Babel common definitions
-\babel@savecnt=\count89
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count88
 \U@D=\dimen105
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count89
 )
 \es@quottoks=\toks20
 \es@quotdepth=\count90
-Package babel Info: Making " an active character on input line 533.
-Package babel Info: Making . an active character on input line 634.
-Package babel Info: Making < an active character on input line 679.
-Package babel Info: Making > an active character on input line 679.
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count91
@@ -118,7 +116,7 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -140,48 +138,54 @@ LaTeX Info: Redefining \addtolength on input line 81.
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
 \AM@pagewidth=\dimen112
 \AM@pageheight=\dimen113
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box28
-\AM@toc@title=\toks22
+\AM@global@opts=\toks22
+\AM@toc@title=\toks23
 \c@AM@survey=\count102
 \AM@templatesizebox=\box29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen114
 \captionmargin@=\dimen115
@@ -200,9 +204,9 @@ Package caption Info: listings package is loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count106
-\float@exts=\toks23
+\float@exts=\toks24
 \float@box=\box30
-\@float@everytoks=\toks24
+\@float@everytoks=\toks25
 \@floatcapt=\box31
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
@@ -221,18 +225,20 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LT@rows=\count109
 \c@LT@tables=\count110
 \c@LT@chunks=\count111
-\LT@p@ftn=\toks25
+\LT@p@ftn=\toks26
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip50
-\f@ncyO@elh=\skip51
-\f@ncyO@erh=\skip52
-\f@ncyO@olh=\skip53
-\f@ncyO@orh=\skip54
-\f@ncyO@elf=\skip55
-\f@ncyO@erf=\skip56
-\f@ncyO@olf=\skip57
-\f@ncyO@orf=\skip58
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip50
+\f@nch@O@elh=\skip51
+\f@nch@O@erh=\skip52
+\f@nch@O@olh=\skip53
+\f@nch@O@orh=\skip54
+\f@nch@O@elf=\skip55
+\f@nch@O@erf=\skip56
+\f@nch@O@olf=\skip57
+\f@nch@O@orf=\skip58
 )
 (/usr/share/texlive/texmf-dist/tex/latex/vmargin/vmargin.sty
 Package: vmargin 2004/07/15 V2.5 set document margins (VK)
@@ -245,14 +251,14 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks26
+\@emptytoks=\toks27
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/03 v2.15a AMS math features
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip59
 
 For additional information on amsmath, use the `?' option.
@@ -261,7 +267,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks27
+\@emptytoks=\toks28
 \ex@=\dimen124
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -269,45 +275,45 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen125
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
+Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count112
-LaTeX Info: Redefining \frac on input line 199.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count113
 \leftroot@=\count114
-LaTeX Info: Redefining \overline on input line 297.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count115
 \DOTSCASE@=\count116
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box36
 \strutbox@=\box37
 \big@size=\dimen126
-LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count117
 \c@MaxMatrixCols=\count118
 \dotsspace@=\muskip10
 \c@parentequation=\count119
 \dspbrk@lvl=\count120
-\tag@help=\toks28
+\tag@help=\toks29
 \row@=\count121
 \column@=\count122
 \maxfields@=\count123
-\andhelp@=\toks29
+\andhelp@=\toks30
 \eqnshift@=\dimen127
 \alignsep@=\dimen128
 \tagshift@=\dimen129
 \tagwidth@=\dimen130
 \totwidth@=\dimen131
 \lineht@=\dimen132
-\@envbody=\toks30
+\@envbody=\toks31
 \multlinegap=\skip60
 \multlinetaggap=\skip61
-\mathdisplay@stack=\toks31
-LaTeX Info: Redefining \[ on input line 2735.
-LaTeX Info: Redefining \] on input line 2736.
+\mathdisplay@stack=\toks32
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
@@ -333,13 +339,13 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup7
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/stackrel.sty
-Package: stackrel 2007/11/11 v1.2 Adding subscript option to stackrel (HO)
+Package: stackrel 2016/05/16 v1.3 Adding subscript option to stackrel (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
 Package etexcmds Info: Could not find \expanded.
@@ -348,7 +354,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -356,8 +362,8 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
-Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
-Package cleveref Info: `listings' support loaded on input line 2950.
+Package: cleveref 2018/02/08 v0.21.1 Intelligent cross-referencing
+Package cleveref Info: `listings' support loaded on input line 3062.
 ) (./main.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
@@ -393,6 +399,33 @@ LaTeX Warning: Label `sub@fig:sfig2' multiply defined.
 LaTeX Warning: Label `sub@fig:sfig2@cref' multiply defined.
 
 
+LaTeX Warning: Label `fig:sfig2' multiply defined.
+
+
+LaTeX Warning: Label `fig:sfig2@cref' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sfig2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sfig2@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:sfig2' multiply defined.
+
+
+LaTeX Warning: Label `fig:sfig2@cref' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sfig2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sfig2@cref' multiply defined.
+
+
+LaTeX Warning: Label `latexcompanion' multiply defined.
+
+
 LaTeX Warning: Label `latexcompanion' multiply defined.
 
 
@@ -416,38 +449,40 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count124
 \scratchdimen=\dimen134
 \scratchbox=\box39
 \nofMPsegments=\count125
 \nofMParguments=\count126
-\everyMPshowfont=\toks32
+\everyMPshowfont=\toks33
 \MPscratchCnt=\count127
 \MPscratchDim=\dimen135
 \MPnumerator=\count128
 \makeMPintoPDFobject=\count129
-\everyMPtoPDFconversion=\toks33
+\everyMPtoPDFconversion=\toks34
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 ))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
+(grfext)             \AppendGraphicsExtensions on input line 456.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -462,12 +497,12 @@ LaTeX Info: Redefining \% on input line 54.
 \AtBeginShipoutBox=\box40
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
@@ -480,17 +515,17 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 85.
+LaTeX Font Info:    Try loading font information for U+msa on input line 91.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 85.
+LaTeX Font Info:    Try loading font information for U+msb on input line 91.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 85.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 91.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -500,8 +535,8 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 <Logo.png, id=1, 225.84375pt x 225.84375pt>
 File: Logo.png Graphic file (type png)
- <use Logo.png>
-Package pdftex.def Info: Logo.png used on input line 90.
+<use Logo.png>
+Package pdftex.def Info: Logo.png  used on input line 96.
 (pdftex.def)             Requested size: 225.84319pt x 225.84319pt.
  [1
 
@@ -512,11 +547,10 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
-
 <./Logo2.jpg, id=12, 706.64pt x 343.2825pt>
 File: ./Logo2.jpg Graphic file (type jpg)
- <use ./Logo2.jpg>
-Package pdftex.def Info: ./Logo2.jpg used on input line 109.
+<use ./Logo2.jpg>
+Package pdftex.def Info: ./Logo2.jpg  used on input line 108.
 (pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
 
 
@@ -525,146 +559,162 @@ Package Fancyhdr Warning: \headheight is too small (10.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2 <./Logo2.jpg>] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+[2 <./Logo2.jpg>]
+File: ./Logo2.jpg Graphic file (type jpg)
+<use ./Logo2.jpg>
+Package pdftex.def Info: ./Logo2.jpg  used on input line 115.
+(pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (10.0pt): 
+ Make it at least 12.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+<Wireshark/OOB_1.png, id=22, 436.63126pt x 242.9075pt>
+File: Wireshark/OOB_1.png Graphic file (type png)
+<use Wireshark/OOB_1.png>
+Package pdftex.def Info: Wireshark/OOB_1.png  used on input line 149.
+(pdftex.def)             Requested size: 261.98077pt x 145.7456pt.
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Overfull \hbox (50.61928pt too wide) in alignment at lines 137--186
- [] [] 
- []
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
 
-
-Underfull \vbox (badness 10000) detected at line 186
- []
-
-
-Overfull \hbox (50.61928pt too wide) in alignment at lines 186--215
- [] [] 
  []
 
 File: ./Logo2.jpg Graphic file (type jpg)
 <use ./Logo2.jpg>
-Package pdftex.def Info: ./Logo2.jpg used on input line 215.
+Package pdftex.def Info: ./Logo2.jpg  used on input line 160.
 (pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.0pt): 
  Make it at least 12.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3] <Wireshark/newplot.png, id=22, 980.66376pt x 526.96875pt>
+[4]
+Overfull \hbox (50.61928pt too wide) in alignment at lines 184--233
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 233
+ []
+
+
+Overfull \hbox (50.61928pt too wide) in alignment at lines 233--262
+ [] [] 
+ []
+
+File: ./Logo2.jpg Graphic file (type jpg)
+<use ./Logo2.jpg>
+Package pdftex.def Info: ./Logo2.jpg  used on input line 262.
+(pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
+
+Package Fancyhdr Warning: \headheight is too small (10.0pt): 
+ Make it at least 12.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./Wireshark/OOB_1.png>]
+<Wireshark/newplot.png, id=29, 980.66376pt x 526.96875pt>
 File: Wireshark/newplot.png Graphic file (type png)
-
 <use Wireshark/newplot.png>
-Package pdftex.def Info: Wireshark/newplot.png used on input line 232.
+Package pdftex.def Info: Wireshark/newplot.png  used on input line 279.
 (pdftex.def)             Requested size: 490.33067pt x 263.48372pt.
 
-Overfull \hbox (20.86021pt too wide) in paragraph at lines 232--233
+Overfull \hbox (20.86021pt too wide) in paragraph at lines 279--280
  [][] 
  []
 
 File: ./Logo2.jpg Graphic file (type jpg)
 <use ./Logo2.jpg>
-Package pdftex.def Info: ./Logo2.jpg used on input line 238.
+Package pdftex.def Info: ./Logo2.jpg  used on input line 285.
 (pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.0pt): 
  Make it at least 12.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4 <./Wireshark/newplot.png>]
-<Wireshark/newplot(1).png, id=28, 980.66376pt x 526.96875pt>
+[6 <./Wireshark/newplot.png>]
+<Wireshark/newplot(1).png, id=35, 980.66376pt x 526.96875pt>
 File: Wireshark/newplot(1).png Graphic file (type png)
-
 <use Wireshark/newplot(1).png>
-Package pdftex.def Info: Wireshark/newplot(1).png used on input line 242.
+Package pdftex.def Info: Wireshark/newplot(1).png  used on input line 289.
 (pdftex.def)             Requested size: 490.33067pt x 263.48372pt.
 
-Overfull \hbox (20.86021pt too wide) in paragraph at lines 242--243
+Overfull \hbox (20.86021pt too wide) in paragraph at lines 289--290
  [][] 
  []
 
-<Wireshark/newplot(2).png, id=29, 980.66376pt x 526.96875pt>
+<Wireshark/newplot(2).png, id=36, 980.66376pt x 526.96875pt>
 File: Wireshark/newplot(2).png Graphic file (type png)
-
 <use Wireshark/newplot(2).png>
-Package pdftex.def Info: Wireshark/newplot(2).png used on input line 251.
+Package pdftex.def Info: Wireshark/newplot(2).png  used on input line 298.
 (pdftex.def)             Requested size: 490.33067pt x 263.48372pt.
 
-Overfull \hbox (20.86021pt too wide) in paragraph at lines 251--252
+Overfull \hbox (20.86021pt too wide) in paragraph at lines 298--299
  [][] 
  []
 
 File: ./Logo2.jpg Graphic file (type jpg)
 <use ./Logo2.jpg>
-Package pdftex.def Info: ./Logo2.jpg used on input line 256.
+Package pdftex.def Info: ./Logo2.jpg  used on input line 303.
 (pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.0pt): 
  Make it at least 12.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5 <./Wireshark/newplot(1).png> <./Wireshark/newplot(2).png>]
+[7 <./Wireshark/newplot(1).png> <./Wireshark/newplot(2).png>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 263.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 310.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 263.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 310.
 
-<Wireshark/newplot(5).png, id=35, 980.66376pt x 526.96875pt>
+Underfull \hbox (badness 10000) in paragraph at lines 320--329
+
+ []
+
+<Wireshark/newplot(5).png, id=43, 980.66376pt x 526.96875pt>
 File: Wireshark/newplot(5).png Graphic file (type png)
-
 <use Wireshark/newplot(5).png>
-Package pdftex.def Info: Wireshark/newplot(5).png used on input line 298.
+Package pdftex.def Info: Wireshark/newplot(5).png  used on input line 344.
 (pdftex.def)             Requested size: 392.25854pt x 210.78375pt.
 File: ./Logo2.jpg Graphic file (type jpg)
- <use ./Logo2.jpg>
-Package pdftex.def Info: ./Logo2.jpg used on input line 306.
+<use ./Logo2.jpg>
+Package pdftex.def Info: ./Logo2.jpg  used on input line 352.
 (pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.0pt): 
  Make it at least 12.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6 <./Wireshark/newplot(5).png>]
-<Wireshark/OOB_1.png, id=44, 436.63126pt x 242.9075pt>
-File: Wireshark/OOB_1.png Graphic file (type png)
-
-<use Wireshark/OOB_1.png>
-Package pdftex.def Info: Wireshark/OOB_1.png used on input line 332.
-(pdftex.def)             Requested size: 261.98077pt x 145.7456pt.
-File: ./Logo2.jpg Graphic file (type jpg)
- <use ./Logo2.jpg>
-Package pdftex.def Info: ./Logo2.jpg used on input line 340.
-(pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (10.0pt): 
- Make it at least 12.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7] <Wireshark/1.png, id=49, 1862.96pt x 399.4925pt>
+[8 <./Wireshark/newplot(5).png>]
+<Wireshark/1.png, id=52, 1862.96pt x 399.4925pt>
 File: Wireshark/1.png Graphic file (type png)
- <use Wireshark/1.png>
-Package pdftex.def Info: Wireshark/1.png used on input line 356.
+<use Wireshark/1.png>
+Package pdftex.def Info: Wireshark/1.png  used on input line 367.
 (pdftex.def)             Requested size: 372.5854pt x 79.89708pt.
 File: ./Logo2.jpg Graphic file (type jpg)
-
 <use ./Logo2.jpg>
-Package pdftex.def Info: ./Logo2.jpg used on input line 364.
+Package pdftex.def Info: ./Logo2.jpg  used on input line 375.
 (pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
 
 
@@ -673,22 +723,20 @@ Package Fancyhdr Warning: \headheight is too small (10.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8 <./Wireshark/OOB_1.png> <./Wireshark/1.png>]
-<Wireshark/2_1.png, id=55, 1856.9375pt x 405.515pt>
+[9 <./Wireshark/1.png>]
+<Wireshark/2_1.png, id=58, 1856.9375pt x 405.515pt>
 File: Wireshark/2_1.png Graphic file (type png)
- <use Wireshark/2_1.png>
-Package pdftex.def Info: Wireshark/2_1.png used on input line 370.
+<use Wireshark/2_1.png>
+Package pdftex.def Info: Wireshark/2_1.png  used on input line 381.
 (pdftex.def)             Requested size: 371.38092pt x 81.10155pt.
-
-<Wireshark/Hosts.png, id=56, 401.5pt x 640.3925pt>
+<Wireshark/Hosts.png, id=59, 401.5pt x 640.3925pt>
 File: Wireshark/Hosts.png Graphic file (type png)
- <use Wireshark/Hosts.png>
-Package pdftex.def Info: Wireshark/Hosts.png used on input line 380.
+<use Wireshark/Hosts.png>
+Package pdftex.def Info: Wireshark/Hosts.png  used on input line 391.
 (pdftex.def)             Requested size: 200.7495pt x 320.19547pt.
 File: ./Logo2.jpg Graphic file (type jpg)
-
 <use ./Logo2.jpg>
-Package pdftex.def Info: ./Logo2.jpg used on input line 385.
+Package pdftex.def Info: ./Logo2.jpg  used on input line 396.
 (pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
 
 
@@ -697,78 +745,107 @@ Package Fancyhdr Warning: \headheight is too small (10.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <./Wireshark/2_1.png> <./Wireshark/Hosts.png>]
-<Wireshark/google.png, id=62, 804.00375pt x 269.005pt>
+[10 <./Wireshark/2_1.png> <./Wireshark/Hosts.png>]
+<Wireshark/google.png, id=65, 804.00375pt x 269.005pt>
 File: Wireshark/google.png Graphic file (type png)
-
 <use Wireshark/google.png>
-Package pdftex.def Info: Wireshark/google.png used on input line 389.
+Package pdftex.def Info: Wireshark/google.png  used on input line 400.
 (pdftex.def)             Requested size: 402.0009pt x 134.50217pt.
-
-<Wireshark/Snort.png, id=63, 568.1225pt x 206.7725pt>
+<Wireshark/Snort.png, id=66, 568.1225pt x 206.7725pt>
 File: Wireshark/Snort.png Graphic file (type png)
-
 <use Wireshark/Snort.png>
-Package pdftex.def Info: Wireshark/Snort.png used on input line 401.
+Package pdftex.def Info: Wireshark/Snort.png  used on input line 412.
 (pdftex.def)             Requested size: 284.06055pt x 103.38599pt.
- <Wireshark/5.png, id=64, 1852.9225pt x 710.655pt>
+<Wireshark/5.png, id=67, 1852.9225pt x 710.655pt>
 File: Wireshark/5.png Graphic file (type png)
-
 <use Wireshark/5.png>
-Package pdftex.def Info: Wireshark/5.png used on input line 408.
+Package pdftex.def Info: Wireshark/5.png  used on input line 419.
 (pdftex.def)             Requested size: 555.88104pt x 213.19814pt.
 
-Overfull \hbox (86.41058pt too wide) in paragraph at lines 408--409
+Overfull \hbox (86.41058pt too wide) in paragraph at lines 419--420
  [][] 
  []
 
 File: ./Logo2.jpg Graphic file (type jpg)
 <use ./Logo2.jpg>
-Package pdftex.def Info: ./Logo2.jpg used on input line 415.
+Package pdftex.def Info: ./Logo2.jpg  used on input line 426.
 (pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.0pt): 
  Make it at least 12.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10 <./Wireshark/google.png> <./Wireshark/Snort.png>]
-<Wireshark/6.png, id=68, 1867.97874pt x 407.5225pt>
+[11 <./Wireshark/google.png> <./Wireshark/Snort.png>]
+<Wireshark/6.png, id=71, 1867.97874pt x 407.5225pt>
 File: Wireshark/6.png Graphic file (type png)
- <use Wireshark/6.png>
-Package pdftex.def Info: Wireshark/6.png used on input line 424.
+<use Wireshark/6.png>
+Package pdftex.def Info: Wireshark/6.png  used on input line 435.
 (pdftex.def)             Requested size: 560.39795pt x 122.25769pt.
 
-Overfull \hbox (90.92749pt too wide) in paragraph at lines 424--425
+Overfull \hbox (90.92749pt too wide) in paragraph at lines 435--436
  [][] 
  []
 
 File: ./Logo2.jpg Graphic file (type jpg)
 <use ./Logo2.jpg>
-Package pdftex.def Info: ./Logo2.jpg used on input line 434.
+Package pdftex.def Info: ./Logo2.jpg  used on input line 445.
 (pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.0pt): 
  Make it at least 12.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11 <./Wireshark/5.png> <./Wireshark/6.png>]
-Overfull \hbox (85.61423pt too wide) in paragraph at lines 445--462
+[12 <./Wireshark/5.png> <./Wireshark/6.png>]
+Overfull \hbox (85.61423pt too wide) in paragraph at lines 456--473
  [] 
  []
 
-<Wireshark/magicmike.png, id=74, 604.2575pt x 650.43pt>
-File: Wireshark/magicmike.png Graphic file (type png)
 
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--484
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--489
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 490--491
+
+ []
+
+File: ./Logo2.jpg Graphic file (type jpg)
+<use ./Logo2.jpg>
+Package pdftex.def Info: ./Logo2.jpg  used on input line 497.
+(pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
+
+Package Fancyhdr Warning: \headheight is too small (10.0pt): 
+ Make it at least 12.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]
+<Wireshark/magicmike.png, id=81, 604.2575pt x 650.43pt>
+File: Wireshark/magicmike.png Graphic file (type png)
 <use Wireshark/magicmike.png>
-Package pdftex.def Info: Wireshark/magicmike.png used on input line 491.
+Package pdftex.def Info: Wireshark/magicmike.png  used on input line 502.
 (pdftex.def)             Requested size: 302.128pt x 325.2142pt.
 File: ./Logo2.jpg Graphic file (type jpg)
- <use ./Logo2.jpg>
-Package pdftex.def Info: ./Logo2.jpg used on input line 498.
+<use ./Logo2.jpg>
+Package pdftex.def Info: ./Logo2.jpg  used on input line 509.
 (pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
 
 
@@ -777,94 +854,69 @@ Package Fancyhdr Warning: \headheight is too small (10.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12]
-File: ./Logo2.jpg Graphic file (type jpg)
- <use ./Logo2.jpg>
-Package pdftex.def Info: ./Logo2.jpg used on input line 498.
-(pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (10.0pt): 
- Make it at least 12.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13 <./Wireshark/magicmike.png>]
-<Wireshark/Tres/1.png, id=83, 4779.8575pt x 3621.53pt>
+[14 <./Wireshark/magicmike.png>]
+<Wireshark/Tres/1.png, id=86, 4779.8575pt x 3621.53pt>
 File: Wireshark/Tres/1.png Graphic file (type png)
-
 <use Wireshark/Tres/1.png>
-Package pdftex.def Info: Wireshark/Tres/1.png used on input line 507.
+Package pdftex.def Info: Wireshark/Tres/1.png  used on input line 518.
 (pdftex.def)             Requested size: 187.7889pt x 142.2393pt.
-
-<Wireshark/Tres/2.png, id=84, 1936.23375pt x 1631.09375pt>
+<Wireshark/Tres/2.png, id=87, 1936.23375pt x 1631.09375pt>
 File: Wireshark/Tres/2.png Graphic file (type png)
-
 <use Wireshark/Tres/2.png>
-Package pdftex.def Info: Wireshark/Tres/2.png used on input line 513.
+Package pdftex.def Info: Wireshark/Tres/2.png  used on input line 524.
 (pdftex.def)             Requested size: 187.7889pt x 158.19101pt.
-
-<Wireshark/Tres/3.png, id=85, 4328.17pt x 3621.53pt>
+<Wireshark/Tres/3.png, id=88, 4328.17pt x 3621.53pt>
 File: Wireshark/Tres/3.png Graphic file (type png)
-
 <use Wireshark/Tres/3.png>
-Package pdftex.def Info: Wireshark/Tres/3.png used on input line 519.
+Package pdftex.def Info: Wireshark/Tres/3.png  used on input line 530.
 (pdftex.def)             Requested size: 187.7889pt x 157.10425pt.
-
-<Wireshark/Tres/4.png, id=86, 2596.70125pt x 2626.81375pt>
+<Wireshark/Tres/4.png, id=89, 2596.70125pt x 2626.81375pt>
 File: Wireshark/Tres/4.png Graphic file (type png)
-
 <use Wireshark/Tres/4.png>
-Package pdftex.def Info: Wireshark/Tres/4.png used on input line 525.
+Package pdftex.def Info: Wireshark/Tres/4.png  used on input line 536.
 (pdftex.def)             Requested size: 187.7889pt x 189.94812pt.
-
-<Wireshark/Tres/5.png, id=87, 3182.89125pt x 3621.53pt>
+<Wireshark/Tres/5.png, id=90, 3182.89125pt x 3621.53pt>
 File: Wireshark/Tres/5.png Graphic file (type png)
-
 <use Wireshark/Tres/5.png>
-Package pdftex.def Info: Wireshark/Tres/5.png used on input line 531.
+Package pdftex.def Info: Wireshark/Tres/5.png  used on input line 542.
 (pdftex.def)             Requested size: 187.7889pt x 213.63525pt.
-
-<Wireshark/Tres/6.png, id=88, 1936.23375pt x 1631.09375pt>
+<Wireshark/Tres/6.png, id=91, 1936.23375pt x 1631.09375pt>
 File: Wireshark/Tres/6.png Graphic file (type png)
-
 <use Wireshark/Tres/6.png>
-Package pdftex.def Info: Wireshark/Tres/6.png used on input line 537.
+Package pdftex.def Info: Wireshark/Tres/6.png  used on input line 548.
 (pdftex.def)             Requested size: 187.7889pt x 158.19101pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 505--541
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 516--552
 []$ $[]$
  []
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 505--541
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 516--552
 []$ $[]$ 
  []
 
 
-Overfull \hbox (53.51749pt too wide) in paragraph at lines 546--547
+Overfull \hbox (30.69629pt too wide) in paragraph at lines 557--558
 []\OT1/cmr/m/n/10 Finalmente se logr^^So cla-si-fi-car por me-dio de es-te al-g
-o-rit-mo a los da-tos con una pre-ci-si^^Son del \OT1/cmr/m/n/14.4 0.9925373134
-328358 
+o-rit-mo a los da-tos con una pre-ci-si^^Son del \OT1/cmr/bx/n/10 0.99253731343
+28358 
  []
 
 File: ./Logo2.jpg Graphic file (type jpg)
 <use ./Logo2.jpg>
-Package pdftex.def Info: ./Logo2.jpg used on input line 549.
+Package pdftex.def Info: ./Logo2.jpg  used on input line 560.
 (pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.0pt): 
  Make it at least 12.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14 <./Wireshark/Tres/1.png> <./Wireshark/Tres/2.png> <./Wireshark/Tres/3.png> 
+[15 <./Wireshark/Tres/1.png> <./Wireshark/Tres/2.png> <./Wireshark/Tres/3.png> 
 <./Wireshark/Tres/4.png> <./Wireshark/Tres/5.png> <./Wireshark/Tres/6.png>]
 File: ./Logo2.jpg Graphic file (type jpg)
-
 <use ./Logo2.jpg>
-Package pdftex.def Info: ./Logo2.jpg used on input line 552.
+Package pdftex.def Info: ./Logo2.jpg  used on input line 567.
 (pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
 
 
@@ -873,10 +925,10 @@ Package Fancyhdr Warning: \headheight is too small (10.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]
+[16]
 File: ./Logo2.jpg Graphic file (type jpg)
- <use ./Logo2.jpg>
-Package pdftex.def Info: ./Logo2.jpg used on input line 565.
+<use ./Logo2.jpg>
+Package pdftex.def Info: ./Logo2.jpg  used on input line 583.
 (pdftex.def)             Requested size: 85.35826pt x 41.4645pt.
 
 
@@ -885,7 +937,7 @@ Package Fancyhdr Warning: \headheight is too small (10.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16] (./main.aux
+[17] (./main.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -894,13 +946,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10545 strings out of 493029
- 158390 string characters out of 6136233
- 253570 words of memory out of 5000000
- 13875 multiletter control sequences out of 15000+600000
+ 10838 strings out of 494820
+ 165823 string characters out of 6177788
+ 256575 words of memory out of 5000000
+ 13956 multiletter control sequences out of 15000+600000
  15928 words of font info for 63 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 42i,17n,43p,970b,1437s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62 hyphenation exceptions out of 8191
+ 42i,17n,43p,972b,1438s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -912,10 +964,10 @@ lic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (16 pages, 3680488 bytes).
+Output written on main.pdf (17 pages, 3649416 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 142 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
